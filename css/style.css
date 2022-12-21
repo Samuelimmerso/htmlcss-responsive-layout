@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERICS */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* HEADER */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+}
+
+nav .link, nav ul{
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+/* MAIN */
+.main-container{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.row{
+    display: flex;
+    gap: .8rem;
+    margin-bottom: .8rem;
+}
+
+.main-container .bigbox{
+    width: calc(100%);
+    border-radius: 20px;
+    /* debug */
+    height: 200px;
+    background-color: #0084FD;
+}
+
+.main-container .smallbox{
+    width: 33%;
+    border-radius: 20px;
+    /* debug */
+    background-color: blueviolet;
+    height: 200px;
+}
+
+/* planning */
+.planning{
+    background-color: #9792E3;
+    padding: 50px 100px 20px 100px;
+}
+
+.planning-container{
+    display: flex; 
+    gap: 3rem;
+    margin: auto;
+}
+
+.planning .img1{
+    width: 90%;
+}
+
+.planning .img2{
+    width: 70%;
+}
+
+
+
+
+.planning .col1{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    color: white;
+    width: 50%;
+}
+
+.planning .col2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 50%;
+    height: 570px;
+    border-radius: 30px;
+    align-self: flex-end;
+
+}
+
+.planning .violetball{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: violet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* UTILS */
+.bluebg{
+    background-color: #0084FD;
+}
+
+.width80{
+    width: 80%;
+}
+
+
+button{
+    background-color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+}
